@@ -21,7 +21,7 @@ def runThread(threadName):
             break
 
 
-HOST = '192.168.0.12'  # The remote host
+HOST = "localhost"
 PORT = 5555  # The same port as used by the server
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect((HOST, PORT))
